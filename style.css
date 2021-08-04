@@ -14,6 +14,9 @@ body{
     background-color: var(--primary-color);
     padding: 0.3rem;
     border-radius: 1rem;
+    position: fixed;/*added 17,18,19,46th lines to make the navigation bar fixed */
+    top: 0;
+    width: 100%;
 }
 .navigator-heading{
     font-weight: bold;
@@ -40,6 +43,7 @@ body{
 
 .header{
     padding: 2rem;
+    margin-top: 70px;
 }
 
 .header-img{
